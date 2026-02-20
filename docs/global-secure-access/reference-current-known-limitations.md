@@ -33,7 +33,7 @@ DNS uses port 53 UDP for name resolution. Some browsers have their own DNS clien
 ``[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]   
 "BuiltInDnsClientEnabled"=dword:00000000``
 - Chrome   
-``[HKEY_CURRENT_USER\Software\Policies\Google\Chrome]   
+``[HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome]   
 "BuiltInDnsClientEnabled"=dword:00000000``   
 Also, add browsing `chrome://flags` and disable `Async DNS resolver`.
 
